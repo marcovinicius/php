@@ -23,6 +23,7 @@
   </head>
 
   <body>
+    <div class="container">
      <!--Inicio do Menu-->
    <?php
        include_once('menu.html');
@@ -68,6 +69,6 @@
 		<img width="35%" src="./formas_de_pagamentos.png" alt="Formas de pagamentos"> 
       <p id="copy">&copy; Pine in box</p>
     </footer>
-  
+    </div>
   </body>
 </html>

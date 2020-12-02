@@ -31,6 +31,7 @@
   </head>
 
   <body>
+  <div class="container">
        <!--Inicio do Menu-->
    <?php
        include_once('menu.html');
@@ -55,22 +56,25 @@
               </td>
          </table>
          
-         <form method="post" action="">
-              Nome:<br>
-            <input type="text" name="nome" style="width:500px;"><br>
-              Mensagem:<br>
-            <input type="text" name="msg" style="width: 500px;"><br>
-
-            <input type="submit" name="submit" value="Enviar">
+         <form action="fale_conosco.php">
+              <div class="form-group">
+              <label for="name">Nome:</label>
+              <input type="name" class="form-control" placeholder="Name" id="name">
+         </div>
+         <div class="form-group">
+              <label for="msg">Mensagem:</label>
+              <input type="message" class="form-control" placeholder="Message" id="msg">
+         </div>
+            <button type="submit" class="btn btn-primary">Enviar</button>
          </form>
     <br><br><br><br><br>
     <br><br><br><br><br>
     
     <footer id="rodape">
       <p id="formas_pagamento"><b>Formas de pagamentos.</b></p>
-		<img width="35%" src="./formas_de_pagamentos.png" alt="Formas de pagamentos"> 
+		<img width="35%" src="./formas_de_pagamentos.png" class="rounded" alt="Formas de pagamentos"> 
       <p id="copy">&copy; Pine in box</p>
     </footer>
-
+  </div>
   </body>
 </html>
