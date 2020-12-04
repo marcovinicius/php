@@ -1,3 +1,13 @@
+import React from 'react';
+import ReactDOM from 'react-dom';
+import './index.css';
+import App from './App';
+
+
+ReactDOM.render( 
+  <App/> ,
+ document.getElementById('root')
+
 <!--PRODUTOS-->
 <!DOCTYPE html>
 <html lang="pt-br">
@@ -10,6 +20,7 @@
 </head>
 
 <body>
+    <div id="root">
     <div class="container">
         <!--Inicio do Menu-->
         <?php
@@ -133,7 +144,8 @@
          <?php
              }
           ?>
-           </div>
+    </div>
+    </div>
 
 
            <footer id="rodape">

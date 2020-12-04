@@ -1,3 +1,13 @@
+import React from 'react';
+import ReactDOM from 'react-dom';
+import './index.css';
+import App from './App';
+
+
+ReactDOM.render( 
+  <App/> ,
+ document.getElementById('root')
+
 <?php
          $servername ="localhost";
          $username   ="root";
@@ -23,6 +33,8 @@
   </head>
 
   <body>
+  <div id="root">
+
     <div class="container">
      <!--Inicio do Menu-->
    <?php
@@ -69,6 +81,7 @@
 		<img width="35%" src="./formas_de_pagamentos.png" alt="Formas de pagamentos"> 
       <p id="copy">&copy; Pine in box</p>
     </footer>
+    </div>
     </div>
   </body>
 </html>
